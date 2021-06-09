@@ -80,4 +80,11 @@ color:aqua
  
 }
 
-  
+  @media (max-width: 500px){
+      .skills{
+          flex-wrap: wrap;
+      }
+      .skills div{
+          width:100%;
+      }
+  }
