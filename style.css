@@ -59,3 +59,25 @@ color:aqua
     display: flex;
     justify-content: space-around;
 }
+.fly{
+    animation: move;
+    animation-duration: 3s;
+
+
+}
+
+@keyframes move{
+     0%{
+     transform: scale(1);
+    }
+    50%{
+    transform: scale(1.3) translate(300px, -100px)
+    rotate(45deg)
+    }
+    100%{
+        transfor: scale(1) translate(0) rotate(0)
+    }
+ 
+}
+
+  
