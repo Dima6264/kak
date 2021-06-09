@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(255, 255, 190);
+    margin: 0;
+    font-family:'Vollkorn';
+}
+
+header{
+    background-color: dimgrey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a{
+color: floralwhite;
+text-decoration: none;
+margin-left: 30px;
+margin-left: 30px;
+}
+
+header button{
+    background-color:#1AA1Df;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: #fff solid 2px;
+}
+
+header button:hover{
+    background-color: crimson;
+}
+
+main button{
+    background-color: crimson;
+    color: cyan;
+    padding: 10px 20px;
+    border-radius:20px;
+    border: #fff solid 2px;
+}
+
+.first{
+    text-align: center;
+    padding: 100px 0;
+    background-image: linear-gradient(to top, rgb(255, 255, 255), rgba(83, 82, 82, 0.267)), url(logo2.jpg);
+    background-size: cover;
+}
+
+main h1{
+color:aqua
+}
+
+.second{
+    background-color: rgba(0, 255, 55, 0.746);
+    text-align: center;
+    padding: 50px 0;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+}
